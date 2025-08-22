@@ -333,7 +333,7 @@ span.post-read-more a:hover {
   color: rgba(0, 0, 0, 0.8);
 }
 .article-post > * {
-  margin-bottom: 1.5rem;
+  // margin-bottom: 0.rem;
 }
 .article-post {
   font-size: 1.18em;
@@ -690,4 +690,9 @@ span.navigation:before {
 .hover-opacity:hover {
   transition: all.3s;
   opacity: 0.8;
+}
+
+.article-post table {
+  @extend .table;
+  @extend .table-bordered;
 }

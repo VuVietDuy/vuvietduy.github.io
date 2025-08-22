@@ -14,13 +14,21 @@ feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1
 markdown: kramdown
+highlighter: rouge
 kramdown:
-  syntax_highlighter_opts:
-    disable: true
+  input: GFM
 sass:
   sass_dir: _sass
   style: :compressed
 ganalytics:
+toc:
+  min_level: 1
+  max_level: 4
+  no_toc_section_class: "no_toc"
+  list_class: "toc-list"
+  sublist_class: "toc-sublist"
+  item_class: "toc-item"
+  item_prefix: "toc-"
 
 # Authors
 authors:
@@ -46,3 +54,4 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-toc
