@@ -1,6 +1,7 @@
 title: "AI & Data Science"
 email: vuvietduy1010@gmail.com
 timezone: UTC
+url: "https://vuvietduy.github.io"
 baseurl: ""
 permalink: "/:title/"
 logo: "assets/images/logo.png"
@@ -38,7 +39,7 @@ authors:
     display_name: Vũ Viết Duy
     avatar:
     email: vuvietduy1010@gmail.com
-    web: https://vuvietduy.github.ico
+    web: https://vuvietduy.github.io
     twitter:
     description: ""
 
