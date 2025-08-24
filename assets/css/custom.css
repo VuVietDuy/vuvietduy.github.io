@@ -30,3 +30,31 @@
   padding: 8px;
   border-radius: 4px;
 }
+
+.copy-code {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  width: 24px;
+  height: 24px;
+  padding: 2px;
+  border: none;
+  border-radius: 4px;
+  background: #dddddd;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+}
+
+.copy-code:hover {
+  background: #cfcfcf;
+}
+
+.copy-code:focus {
+  border: none;
+  outline: none;
+}

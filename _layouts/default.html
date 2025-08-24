@@ -195,5 +195,24 @@
     <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/theme.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [
+            ["$", "$"],
+            ["\\(", "\\)"],
+          ],
+        },
+        skipHtmlTags: ["script", "noscript", "style", "textarea", "pre"],
+      };
+    </script>
+    <script
+      type="text/javascript"
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
+    ></script>
   </body>
 </html>
