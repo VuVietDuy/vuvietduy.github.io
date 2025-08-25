@@ -24,4 +24,8 @@ $y = w_1x_1 + w_2x_2 + ... + w_dx_d = x_TW$
 
 ## Sai số dự đoán
 
+Sau khi xây dựng được mô hình sự đoán đầu ra, ta cần đánh giá sai số
+
+$\frac{1}{2}e^2 = \frac{1}{2}(y - y)^2$
+
 ## Sai số huấn luyện
